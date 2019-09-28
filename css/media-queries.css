@@ -1,0 +1,75 @@
+/* Mobile Device */
+@media (min-width: 320px) and (max-width: 576px) {
+    html {
+        font-size: 85%;
+    }
+
+    /* approach */
+    .step {
+        top: 0;
+        right: 100%;
+        transform: translate(100%, 0%);
+
+        border-radius: 3px;
+        border: 2px solid white;
+        padding: .9rem 1.8rem;
+
+    }
+
+    .step-even {
+        top: 0;
+        left: 100%;
+        transform: translate(-100%, 0%);
+
+        border-radius: 3px;
+        border: 2px solid white;
+        padding: .9rem 1.8rem;
+    }
+
+    /* Form */
+    .contact-form-container {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+}
+
+/* iPad & tab */
+@media (min-width: 577px) and (max-width: 1140px) {
+    html {
+        font-size: 95%;
+    }
+
+    /* approach */
+    .step {
+        top: 0;
+        right: 100%;
+        transform: translate(100%, 0%);
+
+        border-radius: 3px;
+        border: 2px solid white;
+        padding: .9rem 1.8rem;
+
+    }
+
+    .step-even {
+        top: 0;
+        left: 100%;
+        transform: translate(-100%, 0%);
+
+        border-radius: 3px;
+        border: 2px solid white;
+        padding: .9rem 1.8rem;
+    }
+
+    /* form */
+    .contact-form-container {
+        padding: 1rem;
+        display: block;
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+}
